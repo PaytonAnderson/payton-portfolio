@@ -1,8 +1,3 @@
-import DeployButton from "@/components/deploy-button";
-import { EnvVarWarning } from "@/components/env-var-warning";
-import HeaderAuth from "@/components/header-auth";
-import { ThemeSwitcher } from "@/components/theme-switcher";
-import { hasEnvVars } from "@/utils/supabase/check-env-vars";
 import { Geist } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import Link from "next/link";
@@ -14,8 +9,8 @@ const defaultUrl = process.env.VERCEL_URL
 
 export const metadata = {
   metadataBase: new URL(defaultUrl),
-  title: "Next.js and Supabase Starter Kit",
-  description: "The fastest way to build apps with Next.js and Supabase",
+  title: "Payton's Portfolio Website",
+  description: "Software Developer Portfolio Website of Payton Anderson",
 };
 
 const geistSans = Geist({
@@ -44,7 +39,6 @@ export default function RootLayout({
                   <div className="flex gap-5 items-center font-semibold">
                     <Link href={"/"}>Payton's Portfolio Website</Link>
                   </div>
-                  <HeaderAuth />
                 </div>
               </nav>
               <div className="flex flex-col gap-20 max-w-5xl p-5">
@@ -55,11 +49,10 @@ export default function RootLayout({
                 <p>
                   Payton Anderson
                   <br />
-                  Built with Next.js and Supabase
+                  Built with Next.js
                   <br />
-                  Contact: {"paytonoanderson03@gmail.com"}
+                  Email: {"paytonoanderson03@gmail.com"}
                 </p>
-                <ThemeSwitcher />
               </footer>
             </div>
           </main>
