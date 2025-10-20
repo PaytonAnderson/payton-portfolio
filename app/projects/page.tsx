@@ -18,22 +18,22 @@ export default function Projects() {
                     <CardDescription>College football pool</CardDescription>
                 </CardHeader>
                 <CardContent>
-                    <Link
+                    <a
                         href="https://cfp2025.vercel.app/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-blue-600 hover:underline"
                     >
                         Live Demo
-                    </Link>
-                    <Link
+                    </a>
+                    <a
                         href="https://github.com/PaytonAnderson/cfp2025"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-blue-600 hover:underline ml-4"
                     >
                         Source Code
-                    </Link>
+                    </a>
                 </CardContent>
                 <CardFooter>
                     <p>Built with Next.js Supabase and deployed with Vercel</p>
@@ -45,22 +45,22 @@ export default function Projects() {
                     <CardDescription>Play the NYT Connections</CardDescription>
                 </CardHeader>
                 <CardContent>
-                    <Link
+                    <a
                         href="https://nytconnections.vercel.app/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-blue-600 hover:underline"
                     >
                         Live Demo
-                    </Link>
-                    <Link
+                    </a>
+                    <a
                         href="https://github.com/PaytonAnderson/connections"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-blue-600 hover:underline ml-4"
                     >
                         Source Code
-                    </Link>
+                    </a>
                 </CardContent>
                 <CardFooter>
                     <p>Built with Next.js and deployed with Vercel</p>

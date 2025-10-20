@@ -4,7 +4,7 @@ import Link from "next/link";
 export default async function Home() {
   return (
     <>
-      <main className="flex flex-col sm:flex-row gap-2 flex-1 items-stretch ">
+      <main className="flex flex-col sm:flex-row gap-2 flex-1 items-stretch button-rounded">
         <Link href={"/projects"}>
           <Button className="w-full">Projects</Button>
         </Link>
