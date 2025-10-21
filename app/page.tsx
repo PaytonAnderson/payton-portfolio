@@ -1,23 +1,12 @@
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
+import LinkButton from "@/components/link-button";
 
 export default async function Home() {
   return (
-    <>
-      <main className="flex flex-col sm:flex-row gap-2 flex-1 items-stretch button-rounded">
-        <Link href={"/projects"}>
-          <Button className="w-full">Projects</Button>
-        </Link>
-        <Link href={"/about"}>
-          <Button className="w-full">About Me</Button>
-        </Link>
-        <Link href={"/education"}>
-          <Button className="w-full">Education</Button>
-        </Link>
-        <Link href={"/contact"}>
-          <Button className="w-full">Contact Me</Button>
-        </Link>
-      </main>
-    </>
+    <main className="flex flex-col sm:flex-row gap-2 flex-1 items-stretch link-rounded">
+      <LinkButton href={"/projects"} text="Projects" className="bg-gray-900" />
+      <LinkButton href={"/about"} className="bg-gray-800" text="About Me" />
+      <LinkButton href={"/education"} className="bg-gray-700" text="Education" />
+      <LinkButton href={"/contact"} className="bg-gray-600" text="Contact" />
+    </main>
   );
 }

@@ -70,7 +70,3 @@
     @apply bg-background text-foreground;
   }
 }
-
-.button-rounded button {
-  @apply rounded-xl;
-}
