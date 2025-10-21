@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function contact() {
     return (
-        <div className="grid grid-rows-3 gap-4 w-full">
-            <div className="flexflex-col bg-gray-900 rounded-xl p-4 text-center">
+        <div className="grid grid-rows-4 gap-4 w-full">
+            <div className="flex flex-col bg-gray-900 rounded-xl p-4 text-center">
                 <h1 className="text-base">Email:</h1>
                 <p className="whitespace-normal break-words">paytonoanderson03@gmail.com</p>
             </div>
@@ -23,12 +23,12 @@ export default function contact() {
             >
                 <h1>Connect with me on LinkedIn</h1>
             </a>
-            <div className="flex gap-4">
-                <Link href={"/"} className="flex-1 bg-gray-600 rounded-xl p-4 text-center hover:underline">
+            <Link href={"/"} className="flex bg-gray-600 rounded-xl p-4 items-center justify-center hover:underline">
+                <h1>
                     Home -&gt;
+                </h1>
 
-                </Link>
-            </div>
+            </Link>
         </div>
 
     )
