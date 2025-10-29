@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ExternalLink } from "lucide-react"
+import { Download } from "lucide-react"
 export default async function About() {
     return (
         <div className="flex flex-col gap-4">
@@ -42,14 +43,16 @@ export default async function About() {
                 </a>
             </div>
             <div className="flex gap-4">
-                <div className="flex flex-col flex-1 bg-gray-900 rounded-xl p-4 text-center items-center justify-center">
-                    <h1>Resume:</h1>
-                </div>
-                <a href="/PaytonAnderson_Resume.pdf" target="_blank" rel="noopener noreferrer" className="flex flex-1 bg-gray-800 rounded-xl p-4 items-center underline-offset-4 hover:underline justify-center">
+                <a href="https://drive.google.com/file/d/1kg14_Fm4_Zq7YgPzGf5pnW20OCUdQBHg/view" target="_blank" rel="noopener noreferrer" className="flex flex-1 bg-gray-900 rounded-xl p-4 items-center underline-offset-4 hover:underline justify-center">
                     View Resume
 
 
                     <ExternalLink />
+                </a>
+                <a href="https://drive.google.com/uc?export=download&id=1kg14_Fm4_Zq7YgPzGf5pnW20OCUdQBHg" target="_blank" rel="noopener noreferrer" className="flex flex-1 bg-gray-800 rounded-xl p-4 text-center items-center justify-center hover:underline underline-offset-4">
+                    <h1>Download Resume</h1>
+                    
+                    <Download />
                 </a>
             </div>
             <div className="flex gap-4">
