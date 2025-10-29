@@ -1,19 +1,11 @@
-type EducationRowProps = {
-    year: string
-    title: string
-    description: string
-
-}
-function EducationRow({ year, title, description }: EducationRowProps) {
+export default function EducationRow({ year, title, description }: { year: string, title: string, description: string }) {
     return (
-        <div className="flex divide-x divide-solid divide-white">
-            <h2 className="flex-1 px-2 py-4">{year}</h2>
-            <div className="flex-1 px-2 flex flex-col py-4">
-                <h2>{title}:</h2>
-                <p>{description}</p>
+        <>
+            <div className="px-2 py-2 border-r border-white min-w-0 text-right">{year}</div>
+                <div className="px-2 py-2 min-w-0 text-left">
+                <div className="font-bold">{title}</div>
+                <div className="text-sm">{description}</div>
             </div>
-        </div>
+        </>
     )
 }
-
-export default EducationRow
