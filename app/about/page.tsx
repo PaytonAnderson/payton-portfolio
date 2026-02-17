@@ -36,7 +36,7 @@ export default async function About() {
                     <h1>Check out my GitHub</h1>
                     {/* <img src="/github.webp" /> */}
                 </a>
-                <a href="https://www.linkedin.com/in/payton-anderson-50ab14293/" target="_blank" rel="noopener noreferrer" className="flex flex-col flex-1 bg-gray-700 rounded-xl p-4 justify-center items-center underline-offset-4 hover:underline">
+                <a href="https://www.linkedin.com/in/paytonoanderson/" target="_blank" rel="noopener noreferrer" className="flex flex-col flex-1 bg-gray-700 rounded-xl p-4 justify-center items-center underline-offset-4 hover:underline">
                     <h1>Connect with me on LinkedIn</h1>
 
                     {/* <img src="/Linkedin-Logo.png" alt="LinkedIn Logo" /> */}
@@ -51,7 +51,7 @@ export default async function About() {
                 </a>
                 <a href="https://drive.google.com/uc?export=download&id=1kg14_Fm4_Zq7YgPzGf5pnW20OCUdQBHg" target="_blank" rel="noopener noreferrer" className="flex flex-1 bg-gray-800 rounded-xl p-4 text-center items-center justify-center hover:underline underline-offset-4">
                     <h1>Download Resume</h1>
-                    
+
                     <Download />
                 </a>
             </div>

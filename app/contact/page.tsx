@@ -16,7 +16,7 @@ export default function contact() {
                 <h1>Check out my GitHub</h1>
             </a>
             <a
-                href="https://www.linkedin.com/in/payton-anderson-50ab14293/"
+                href="https://www.linkedin.com/in/paytonoanderson/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex bg-gray-700 rounded-xl p-4 items-center justify-center hover:underline"
