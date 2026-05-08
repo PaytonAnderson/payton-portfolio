@@ -43,13 +43,13 @@ export default async function About() {
                 </a>
             </div>
             <div className="flex gap-4">
-                <a href="https://drive.google.com/file/d/1kg14_Fm4_Zq7YgPzGf5pnW20OCUdQBHg/view" target="_blank" rel="noopener noreferrer" className="flex flex-1 bg-gray-900 rounded-xl p-4 items-center underline-offset-4 hover:underline justify-center">
+                <a href="/resume/PaytonAndersonResume.pdf" target="_blank" rel="noopener noreferrer" className="flex flex-1 bg-gray-900 rounded-xl p-4 items-center underline-offset-4 hover:underline justify-center">
                     View Resume
 
 
                     <ExternalLink />
                 </a>
-                <a href="https://drive.google.com/uc?export=download&id=1kg14_Fm4_Zq7YgPzGf5pnW20OCUdQBHg" target="_blank" rel="noopener noreferrer" className="flex flex-1 bg-gray-800 rounded-xl p-4 text-center items-center justify-center hover:underline underline-offset-4">
+                <a href="/resume/PaytonAndersonResume.pdf" download className="flex flex-1 bg-gray-800 rounded-xl p-4 text-center items-center justify-center hover:underline underline-offset-4">
                     <h1>Download Resume</h1>
 
                     <Download />
