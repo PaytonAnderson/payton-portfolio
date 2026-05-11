@@ -11,6 +11,14 @@ export const metadata = {
   metadataBase: new URL(defaultUrl),
   title: "Payton's Portfolio Website",
   description: "Software Developer Portfolio Website of Payton Anderson",
+  openGraph: {
+    title: "Payton Anderson - Full Stack Web Developer",
+    description: "CS graduate from Cal Poly SLO. Check out my projects and resume.",
+    url: defaultUrl,
+    siteName: "Payton Anderson Portfolio",
+    type: "website",
+    images: ['${defaultUrl}/Payton Anderson.png'],
+  },
 };
 
 const geistSans = Geist({
@@ -38,6 +46,11 @@ export default function RootLayout({
                 <div className="w-full max-w-5xl flex justify-between items-center p-3 px-5 text-sm">
                   <div className="flex gap-5 items-center font-semibold">
                     <Link href={"/"}>Home</Link>
+                    <Link href={"/projects"}>Projects</Link>
+                    <Link href={"/about"}>About</Link>
+                    <Link href={"/education"}>Education</Link>
+                    <Link href={"/contact"}>Contact</Link>
+
                   </div>
                 </div>
               </nav>
