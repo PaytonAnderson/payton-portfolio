@@ -9,15 +9,15 @@ const defaultUrl = process.env.VERCEL_URL
 
 export const metadata = {
   metadataBase: new URL(defaultUrl),
-  title: "Payton's Portfolio Website",
+  title: "Payton's Portfolio Website Portfolio",
   description: "Software Developer Portfolio Website of Payton Anderson",
   openGraph: {
-    title: "Payton Anderson - Full Stack Web Developer",
-    description: "CS graduate from Cal Poly SLO. Check out my projects and resume.",
+    title: "Payton Anderson - Full Stack Web Developer Portfolio",
+    description: "CS graduate from Cal Poly SLO specializing in full stack web development. Explore my projects built with Next.js, React, Supabase, and TypeScript.",
     url: defaultUrl,
     siteName: "Payton Anderson Portfolio",
     type: "website",
-    images: ['${defaultUrl}/Payton Anderson.png'],
+    images: [`${defaultUrl}/Payton Anderson.png`],
   },
 };
 
